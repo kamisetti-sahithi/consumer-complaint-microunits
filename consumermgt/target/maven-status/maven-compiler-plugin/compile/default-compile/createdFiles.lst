@@ -1,0 +1,12 @@
+com\dxctraining\consumermgt\service\ConsumerServiceImpl.class
+com\dxctraining\ProjectApplication.class
+com\dxctraining\consumermgt\dto\ConsumerDto.class
+com\dxctraining\consumermgt\dao\ConsumerDaoImpl.class
+com\dxctraining\consumermgt\dto\CreateConsumerRequest.class
+com\dxctraining\consumermgt\service\IConsumerService.class
+com\dxctraining\consumermgt\exceptions\InvalidConsumerArgumentException.class
+com\dxctraining\ServletInitializer.class
+com\dxctraining\consumermgt\dao\IConsumerDao.class
+com\dxctraining\consumermgt\exceptions\ConsumerNotFoundException.class
+com\dxctraining\consumermgt\controllers\ConsumerRestController.class
+com\dxctraining\consumermgt\entities\Consumer.class
