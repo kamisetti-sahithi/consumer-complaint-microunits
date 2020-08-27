@@ -19,7 +19,7 @@ import com.dxctraining.consumermgt.entities.Consumer;
 import com.dxctraining.consumermgt.service.IConsumerService;
 
 @RestController
-@RequestMapping("/consumers")
+@RequestMapping("/consumer")
 public class ConsumerRestController {
 	
 	@Autowired

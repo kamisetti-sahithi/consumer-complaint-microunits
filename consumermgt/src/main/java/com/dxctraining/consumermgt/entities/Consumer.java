@@ -3,8 +3,10 @@ package com.dxctraining.consumermgt.entities;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "consumers")
 public class Consumer {
 	
 	@Id
