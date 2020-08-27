@@ -47,7 +47,7 @@ public class Complaint {
 	public void setConsumerId(int consumerId) {
 		this.consumerId = consumerId;
 	}
-	
+	@Override
 	public boolean equals(Object obj) {
 		if(this == obj) {
 			return true;
@@ -59,6 +59,7 @@ public class Complaint {
 		boolean isEquals = this.id == that.id;
 		return isEquals;
 	}
+	@Override
 	public int hashCode() {
 		return id;
 	}
